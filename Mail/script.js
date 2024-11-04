@@ -10,7 +10,6 @@ let isFound = false;
 
 // LOGICA
 // Fa si che venga analizzata la mail inserita dall'utente per constatare che ci sia o meno nella lista
-
 for (let i = 0; i <= emailList.length; i++) {
     const curEmail = emailList[i];
     if (userEmail === curEmail[i]) {
